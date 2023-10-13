@@ -19,7 +19,7 @@ use QRcode;
  */
 
 //Change Path to the QR-Library  
-include(ROOT . './qrlib.php');
+include('./qrlib.php');
 
 class PayQr
 {
