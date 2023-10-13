@@ -21,7 +21,8 @@ Flexible Versioning: Supports both version 1 and 2, with specific requirements f
 Initialization
 
   $payQr = new PayQr();
-
+  
+_____________________________________________________________
 
 2. Set Payment Details
    
@@ -35,12 +36,13 @@ Initialization
   
   $payQr->setSubject("Invoice Payment");
 
+_____________________________________________________________
 
 4. Generate QR Code
    
   $payQr->generate("/path/to/store/qr");
   
-
+_____________________________________________________________
 
 Author
 Created by Tuncay Uyar.
