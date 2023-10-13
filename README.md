@@ -18,7 +18,7 @@ Flexible Versioning: Supports both version 1 and 2, with specific requirements f
 
 _____________________________________________________________
 
-Usage (Initialization)
+Usage (Initialization) 
 
 $payQr = new PayQr();
   
