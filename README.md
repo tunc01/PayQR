@@ -16,13 +16,15 @@ Detailed Exception Handling: Provides useful error messages for invalid inputs.
 Customizable Payment Details: Set various payment attributes including amount, subject, comment, and more.
 Flexible Versioning: Supports both version 1 and 2, with specific requirements for BIC.
 
-1.Usage (Initialization)
+_____________________________________________________________
+
+Usage (Initialization)
 
 $payQr = new PayQr();
   
 _____________________________________________________________
 
-2. Set Payment Details
+Set Payment Details
    
 $payQr->setRecipientName("John Doe");
   
@@ -36,7 +38,7 @@ $payQr->setSubject("Invoice Payment");
 
 _____________________________________________________________
 
-4. Generate QR Code
+Generate QR Code
    
 $payQr->generate("/path/to/store/qr");
   
