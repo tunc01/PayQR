@@ -18,7 +18,8 @@ use QRcode;
  * 
  */
 
-include(ROOT . 'vendor/phpqrcode/qrlib.php');
+//Change Path to the QR-Library  
+include(ROOT . './qrlib.php');
 
 class PayQr
 {
