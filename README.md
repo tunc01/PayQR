@@ -19,19 +19,19 @@ Flexible Versioning: Supports both version 1 and 2, with specific requirements f
 1.Usage 
 
 Initializatin
-$payQr = new PayQr();
+  $payQr = new PayQr();
 
 
 2. Set Payment Details
-$payQr->setRecipientName("John Doe");
-$payQr->setIban("YOUR_IBAN_HERE");
-$payQr->setBic("YOUR_BIC_HERE");
-$payQr->setAmount("50.00");
-$payQr->setSubject("Invoice Payment");
+  $payQr->setRecipientName("John Doe");
+  $payQr->setIban("YOUR_IBAN_HERE");
+  $payQr->setBic("YOUR_BIC_HERE");
+  $payQr->setAmount("50.00");
+  $payQr->setSubject("Invoice Payment");
 
 
-3. Generate QR Code
-$payQr->generate("/path/to/store/qr");
+4. Generate QR Code
+  $payQr->generate("/path/to/store/qr");
 
 
 Author
